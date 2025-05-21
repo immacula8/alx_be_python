@@ -1,5 +1,5 @@
-user_age = int(input('How old are you? '))
+age = int(input("How old are you? "))
+future_age = 27 + age
 
-future_age = user_age + 27
 
-print('In 2050, you will be ' + str(future_age) + ' years old')
+print(f"In 2050, you will be {future_age} years old.")
