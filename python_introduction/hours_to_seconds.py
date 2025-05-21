@@ -1,5 +1,5 @@
 hours = 2
 
-seconds = 3600 * hours
+seconds = 3600 * 2
 
-print(str(hours) + 'hour(s) is ' + str(seconds) + ' seconds')
+print(f"{hours} hour(s) is {seconds} seconds")
